@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://geetlab.com/sitemap.xml
+
+# Crawl delay (optional, but good practice)
+Crawl-delay: 1

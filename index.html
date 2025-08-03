@@ -1,42 +1,157 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-
-    <title>GeetLab - Did you misspell GitLab?</title>
-    <meta name="description" content="Geetlab is a mispelling of a popular Git hosting website GitLab. Did you mean to type GitLab?" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Geetlab - Did you misspell gitlab?</title>
+    <meta
+      name="description"
+      content="Geetlab is a misspelling of gitlab. Did you mean to go to gitlab?"
+    />
     <meta name="author" content="Shirish Padalkar" />
-
+    <meta
+      name="keywords"
+      content="gitlab,Geetlab,typo,misspelling,git hosting,repository"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Geetlab - Did you misspell gitlab?" />
+    <meta
+      property="og:description"
+      content="Looks like you typed 'Geetlab' instead of 'gitlab'. No worries, it happens to the best of us!"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://geetlab.com" />
+    <meta property="og:site_name" content="Geetlab" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Geetlab - Did you misspell gitlab?" />
+    <meta
+      name="twitter:description"
+      content="Looks like you typed 'geetlab' instead of 'gitlab'. No worries, it happens to the best of us!"
+    />
+    <meta name="theme-color" content="#fa709a" />
+    <meta name="msapplication-TileColor" content="#fa709a" />
+    <link rel="canonical" href="https://geetlab.com" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://about.gitlab.com/" />
     <style>
-      html,
-      body {
-        height: 100%;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-          "Segoe UI Symbol";
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 16px;
+        line-height: 1.6;
       }
       body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
+        color: #333;
       }
-      .content {
-        flex: 1 0 auto;
+      .container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+      .card {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 3rem;
+        text-align: center;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        width: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      .icon {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+        display: block;
+      }
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .message {
+        font-size: 1.25rem;
+        color: #666;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+      }
+      .gitlab-link {
+        display: inline-block;
+        background: linear-gradient(135deg, #24292e, #586069);
+        color: #fff;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+      .gitlab-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(135deg, #2f363d, #6a737d);
+      }
+      .gitlab-link:active {
+        transform: translateY(0);
       }
       .footer {
-        flex-shrink: 0;
+        text-align: center;
+        padding: 2rem;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.9rem;
+      }
+      .footer a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .footer a:hover {
+        text-decoration: underline;
       }
     </style>
   </head>
-
   <body>
-    <div class="content">
-      <h1>It seems you have mistyped.</h1>
-      <h3>
-        Did you mean to go to
-        <a href="https://www.gitlab.com">https://www.gitlab.com/</a>?
-      </h3>
+    <div class="container">
+      <div class="card">
+        <span class="icon">🤔</span>
+        <h1>Did you mean gitlab?</h1>
+        <p class="message">
+          Looks like you typed "geetlab" instead of "gitlab". No worries, it
+          happens to the best of us!
+        </p>
+        <a
+          href="https://about.gitlab.com/?utm_source=geetlab&utm_medium=website&utm_campaign=typo_redirect"
+          class="gitlab-link"
+          >Go to gitlab →</a
+        >
+      </div>
     </div>
-    <footer class="footer">Shirish Padalkar</footer>
+    <footer class="footer">
+      Made with ❤️ by
+      <a
+        href="https://www.shirishpadalkar.com/?utm_source=geetlab&utm_medium=website&utm_campaign=footer_link"
+        target="_blank"
+        rel="noopener"
+        >Shirish Padalkar</a
+      >
+    </footer>
   </body>
 </html>

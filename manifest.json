@@ -1,0 +1,20 @@
+{
+  "name": "Geetlab - Did you misspell gitlab?",
+  "short_name": "Geetlab",
+  "description": "Looks like you typed 'geetlab' instead of 'gitlab'. No worries, it happens to the best of us!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fa709a",
+  "theme_color": "#fa709a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "productivity"],
+  "lang": "en"
+}
